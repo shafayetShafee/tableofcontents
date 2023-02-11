@@ -1,0 +1,25 @@
+title: Tableofcontents
+author: Shafayet Khan Shafee
+version: 1.0.0
+quarto-required: ">=1.2.0"
+contributes:
+  revealjs-plugins:
+    - name: RevealTableOfContents
+      script:
+        - tableofcontents.js
+      config:
+        tableofcontents:
+          # title: Specifies the slide title of the table of contents slide
+          title: "Table of Contents"
+          # titleTag: Specifies html tag in which the table of contents title stands
+          titleTag: "h1"
+          # position: Specifies the position of the table of contents slide in the presentation
+          position: 2
+          # titleTagSelector: Specifies which slide tag elements will be used for generating the table of contents.
+          titleTagSelector: "h1, h2, h3, h4, h5, h6"
+          # ignoreFirstSlide: Specifies if the first slide, mostly the title slide of the presentation, should be ignored.
+          ignoreFirstSlide: true
+          # fadeInElements: Specifies if every single element of the table of contents will be stepped through before moving on to the next slide.
+          fadeInElements: false
+
+
