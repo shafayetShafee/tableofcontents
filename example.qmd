@@ -1,15 +1,21 @@
 ---
 title: "Tableofcontents Example"
-format:
-  revealjs:
-    tableofcontents:
-      title: Contents
-      position: 3
-      titleTagSelector: "h1, h2"
-      fadeInElements: true
+format: revealjs
+tableofcontents:
+  title: Contents
+  position: 3
+  titleTagSelector: "h1, h2"
+  fadeInElements: true
 revealjs-plugins:
   - tableofcontents
+embed-resources: true
 ---
+
+## Prelude
+
+Some Intro Info!!! 
+
+And then the next slide contains the table of contents (since we have used `postion: 3`).
 
 # In the morning
 

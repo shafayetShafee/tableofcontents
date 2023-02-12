@@ -2,3 +2,4 @@
 *_files/
 .Rproj.user
 *.rproj
+.Rhistory
